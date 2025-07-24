@@ -10,5 +10,5 @@ A simple and responsive **Bill Generator** built using **React JS**. This app al
 - 📱 Responsive design  
 - ⚛️ Built using React components
 
-## 📁 Folder Structure
+
 
