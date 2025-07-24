@@ -11,3 +11,114 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* src/App.css */
+
+*{
+    color: black;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.App {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+/* BillDetails form */
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 8px 0 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Item List */
+.item-list h2 {
+  margin-top: 40px;
+  color: #34495e;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.items {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.items:hover {
+  transform: scale(1.01);
+}
+
+.items div:first-child {
+  font-weight: bold;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.items button {
+  margin-top: 10px;
+  background-color: #e74c3c;
+}
+
+.items button:hover {
+  background-color: #c0392b;
+}
+
+/* Total Amount */
+.total {
+  margin-top: 30px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  color: #27ae60;
+  background: #ecfdf5;
+  padding: 15px 20px;
+  border-radius: 12px;
+  border: 1px solid #b2f5ea;
+}
